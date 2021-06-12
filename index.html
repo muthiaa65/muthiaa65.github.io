@@ -1,30 +1,108 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" href="style.css">
-	<title> Muthia Awalyah </title>
-</head>
-<body> 
-	<h2><center> Biodata </center></h2>
-	<center><a target="_blank" href="foto diri.jpeg"><img src="foto diri.jpeg" alt="gambar-muthia"width="200" height="350"></center></a>
-	<table style="width:100%">
-		<tr>
-			<th>Nama Depan</th>
-			<th>Nama Belakang</th>
-			<th>Tempat Tanggal Lahir</th>
-			<th>Hobi</th>
-		</tr>
-		<tr>
-			<td>Muthia</td>
-			<td>Awalyah</td>
-			<td>Bogor, 14 Juli 2003</td>
-			<td>Membaca buku, tidur</td>
-		</tr>
-	</table>
-	<p>Selama Pembelajaran Jarak Jauh saya menghadapi banyak sekali kendala, terutama dengan tugas yang bertambah banyak dari biasanya karena harus menyesuaikan dengan pembelajaran. Kendala lainnya yg membuat saya kesulitan seperti koneksi wifi saya yang terkenal sering bermasalah, sering telat mengumpulkan tugas karena lupa, sering ketiduran saat zoom, dan yang paling membuat saya jengkel yaitu tidak bisa kemana mana apalagi bermain dengan teman.</p>
-    <p>Tapi pembelajaran jarak jauh ini juga memudahkan saya untuk istirahat dan me time, walaupun kadang keterusan sampai lupa waktu sih.</p>
-    <p>Buat temen temen yang mau tau aku sekolah dimana bisa cek dibawah ini ya</p>
-    <a href="http://www.smakbo.sch.id/" class="button">Sekolah</a>
-    <a href="https://youtu.be/B9tc9R_Y3FY" class="button">Fav Song</a>
-</body>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-md fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Muthia Awalyah</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about">About me</a>
+            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="#Contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/saya.jpg" alt="saya" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Muthia Awalyah</h1>
+      <p class="lead">Part-time Student | Full-time Fans</p>
+    </section>
+    <!-- jumbotron end -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5">
+          <div class="col-8 text-center" id="abc">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente eveniet ex ipsum, voluptates laudantium libero assumenda debitis adipisci numquam rerum nihil esse! Voluptas porro minus recusandae earum nisi distinctio.
+              Dicta quo voluptatem laborum repellat temporibus, delectus maxime repudiandae, doloribus cum saepe quis excepturi, officia magnam culpa? Laudantium nemo accusantium tempore?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- gallery -->
+    <!-- gallery end -->
+
+    <!-- contact -->
+    <section id="Contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="Full name" class="form-label">Full name</label>
+                <input type="Full name" class="form-control" id="Full name" aria-describedby="Full name" />
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="Email" class="form-control" id="Email" />
+              </div>
+              <div class="mb-3">
+                <label for="Message" class="form-label">Message</label>
+                <textarea class="form-control" id="Message" rows="3"></textarea>
+              </div>
+              <button type="Send" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- Footer -->
+    ,
+    <footer class="bg-light text-center">
+      <p>Created in few hours with full of confusion by depressed Muthia</p>
+      <p>>Mentored by envious friend, Ahmad Raihan</p>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
 </html>
